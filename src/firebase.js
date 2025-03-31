@@ -7,13 +7,13 @@ import {
 } from "firebase/messaging";
 import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: "",
+  apiKey: "AIzaSyA3lFknjE3vp8rVZsg5ab83CxGLb6BCHz4",
+  authDomain: "pitara-sejasa.firebaseapp.com",
+  projectId: "pitara-sejasa",
+  storageBucket: "pitara-sejasa.appspot.com",
+  messagingSenderId: "81515021398",
+  appId: "1:81515021398:web:3783d2fa2edcfef99167f7",
+  measurementId: "G-ED7LCR20KJ",
 };
 const firebaseApp = !getApps().length
   ? initializeApp(firebaseConfig)
